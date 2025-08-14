@@ -14,4 +14,12 @@ if(typeof str !== "string" || str === Boolean ){
     let upperLetter = strJoin.toUpperCase() ;
     return upperLetter ;
  }
-}
+} 
+
+console.log(onlyCharacter("  h e llo wor   ld" ))
+console.log(onlyCharacter("Cy   bar- At  tac k  " ))
+console.log(onlyCharacter(" ha ck m e 1 @ru.c  n  "))
+console.log(onlyCharacter("Serv er : : Do wn" ))
+console.log(onlyCharacter(["hack", "me"]))
+console.log(onlyCharacter(true ))
+console.log(onlyCharacter('10' ))
